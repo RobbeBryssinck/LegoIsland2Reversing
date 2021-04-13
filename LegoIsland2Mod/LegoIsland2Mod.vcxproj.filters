@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{e664fa78-9174-44fc-b94f-931c635c3bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{55e3e3df-cdb8-4914-af46-38ef6826ec55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Processes.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Coordinates.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MovementState.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UnkStruct4.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UnkStruct1.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UnkStruct2.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UnkStruct3.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MovementData.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\JumpData.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\VehicleData.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EntFnChainHead.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EntFnEntry.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EntFnTable.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EnteredVehicle.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GlobalDict.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Processes.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
